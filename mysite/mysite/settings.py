@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "rest_framework",  # added
+    "movies.apps.MoviesConfig", # added
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
