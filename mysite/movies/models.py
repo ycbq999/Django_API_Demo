@@ -13,7 +13,7 @@ class Moviedata(models.Model):
     rating = models.FloatField()
     typ = models.CharField(max_length=200, default="Action")
     
-
+    image = models.ImageField(upload_to='Images/', default="images/None/Noimg.jpg")
 
 
 

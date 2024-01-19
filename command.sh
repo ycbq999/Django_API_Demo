@@ -1,3 +1,8 @@
+#bash get your virtual environment  
+
+source ~/.venv/bin/activate
+
+
 # Creating a New Project
 django-admin startproject projectname
 
